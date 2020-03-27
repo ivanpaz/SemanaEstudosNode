@@ -1,25 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './Header';
 
+//Um componente no React é uma função que retorna HTML
+// HTML escrito dentro do JS = JSX (JavaScript XML)
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //Passa title (pode ser qualquer nome) como uma propriedade para o Header.js
+    <Header title='Semana de estudos Opa'></Header>//Importa o export do Header.js
   );
 }
 
