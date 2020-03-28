@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//import Header from './Header';
+import Header from './Header';
 import Logon from './pages/Logon';
 
 //Um componente no React é uma função que retorna HTML
